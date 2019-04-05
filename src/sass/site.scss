@@ -409,6 +409,9 @@ main {
   background: #f6f9fc;
 }
 @media screen and (max-width: 768px) {
+  .cta-section {
+    background-color: #F6F9FC;
+  }
 
   .scrolling-wrapper-flexbox {
     &:after {
