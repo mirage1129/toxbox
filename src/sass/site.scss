@@ -416,7 +416,7 @@ main {
     }
     .feature-card {
       width: 45%;
-      height: 250px;
+      height: 300px;
     }
     .padder-card {
       display: inline-block;
@@ -426,6 +426,7 @@ main {
   .MainHero {
     .hero-body {
       padding-bottom: 140px;
+      padding-top: 100px;
     }
   }
 
@@ -448,7 +449,7 @@ main {
 
     .feature-card {
       width: 90%;
-      height: 250px;
+      height: 300px;
     }
   }
 }
