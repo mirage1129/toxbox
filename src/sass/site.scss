@@ -146,32 +146,14 @@ main {
   padding-bottom: 20px;
 }
 
-.has-horizontal-scroll {
-  position: relative;
-  margin: 50px 0;
-  .level {
-    margin-left: 0.75rem;
-  }
-}
-.scrolling-wrapper-flexbox {
-  padding: 10px 30px;
-  display: flex;
-  flex-wrap: nowrap;
-  overflow: visible;
-  overflow-x: auto;
+.column {
   width: 100%;
-  -webkit-overflow-scrolling: touch;
-  &::-webkit-scrollbar {
-    display: none;
-  }
-  .feature-card {
+  .box {
     z-index: 9;
     background: white;
     flex: 0 0 auto;
     padding: 30px 16px;
-    margin-right: 2%;
     border: 1px solid white;
-    width: 32%;
     border-radius: 4px;
     display: inline-block;
     border: 1px solid #dedede;
@@ -409,21 +391,15 @@ main {
   background: #f6f9fc;
 }
 @media screen and (max-width: 768px) {
-  .cta-section {
-    background-color: #F6F9FC;
+  .column {
+    .box {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
   }
 
-  .scrolling-wrapper-flexbox {
-    &:after {
-      display: none;
-    }
-    .feature-card {
-      width: 45%;
-      height: 300px;
-    }
-    .padder-card {
-      display: inline-block;
-    }
+  .cta-section {
+    background-color: #F6F9FC;
   }
 
   .MainHero {
@@ -448,6 +424,7 @@ main {
 
 
 @media screen and (max-width: 540px) {
+
   div.Developers {
     margin-top: 30px;
   }
@@ -457,18 +434,12 @@ main {
       font-size: 50px;
     }
   }
-
-  .scrolling-wrapper-flexbox {
-    .feature-card {
-      width: 90%;
-      height: 300px;
-    }
-  }
 }
 
 .Writers, .Readers, .Developers {
   .blurb {
     padding: 0px 30px 0;
+    margin-bottom: 30px;
   }
 }
 
