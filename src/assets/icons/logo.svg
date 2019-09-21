@@ -1,18 +1,6 @@
 <svg width="691" height="568" viewBox="0 0 691 568" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="691" height="568" fill="#E5E5E5"/>
-<g clip-path="url(#clip0)">
 <rect width="691" height="568" fill="white"/>
-<path d="M345.5 133.355L558.975 503.105H132.025L345.5 133.355Z" fill="url(#paint0_linear)"/>
-<rect x="99" y="75" width="493" height="58.3551" fill="#2F8CE2"/>
-</g>
-<defs>
-<linearGradient id="paint0_linear" x1="345.5" y1="133.355" x2="345.5" y2="626.355" gradientUnits="userSpaceOnUse">
-<stop stop-color="#2F8CE2"/>
-<stop offset="0.9999" stop-color="#FF0000" stop-opacity="0.0208333"/>
-<stop offset="1" stop-color="#2F8CE2" stop-opacity="0"/>
-</linearGradient>
-<clipPath id="clip0">
-<rect width="691" height="568" fill="white"/>
-</clipPath>
-</defs>
+<rect x="164" y="37" width="363" height="493" rx="63" fill="white" stroke="black" stroke-width="40"/>
+<circle cx="345.5" cy="283.5" r="60.5" fill="#14DFDA" stroke="black" stroke-width="30"/>
 </svg>
