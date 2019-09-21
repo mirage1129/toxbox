@@ -267,14 +267,14 @@ main {
 .Mockups {
   z-index: 1;
   position: absolute;
-  top: 0px;
+  top: 205px;
   pointer-events: none;
-  left: 50%;
+  left: 65%;
 
-  width: 829px;
+  // width: 829px;
   margin-left: -10px;
 
-  transform: rotate(-12deg);
+  // transform: rotate(-12deg);
   transform-origin: 100% 0;
 
   #support {
@@ -452,8 +452,8 @@ main {
 .Writers, .Readers, .Developers {
   .blurb {
     padding: 0px 30px 0;
-    margin-bottom: 50px;
-    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
   }
 }
 
